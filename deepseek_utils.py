@@ -8,7 +8,7 @@ class DeepSeekAPIConfig:
 
     def __init__(self):
 
-        self.api_key = "sk-e30e7d4a0f7342c19c56bffc747dc1f9"
+        self.api_key = "xxxxxxxx"
 
         self.base_url = "https://api.deepseek.com"
 
@@ -38,7 +38,7 @@ def dispatch_request(config: DeepSeekAPIConfig):
     )
 
 
-# 异步执行
+# async processing.
 
 
 def async_query_api(config: DeepSeekAPIConfig):
